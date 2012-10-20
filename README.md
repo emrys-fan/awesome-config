@@ -5,11 +5,13 @@ It's my config file for awesome windows manager.
 
 ## Installation
 
-1. Make sure ~/.config/awesome exist, otherwise you need to create it by type the following command.
-    mkdir -p ~/.config/awesome
+1. Clone repository
+    git clone https://github.com/emrys-fan/awesome-config.git 
 
-2. Clone repository to ~/.config/awesome.
-    git clone https://github.com/emrys-fan/awesome-config.git ~/.config/awesome
+2. backup your own configure file, and copy this cover that.
+    mv ~/.config/awesome ~/.config/awesome.old
+    cd awesome-config/.config/
+    mv awesome ~/.config/
 
 3. That's all. 
 
